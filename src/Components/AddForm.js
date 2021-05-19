@@ -24,7 +24,7 @@ const AddForm = (props) => {
             <label className='sr-only'>Time</label>
             <input type='text' placeholder='Time' value={time} onChange={(e) => setTime(e.target.value)} required/>
 
-            <input className="buttons" type='submit' value='Save to Schedule' onClick={props.addItem}/>
+            <input className="buttons" type='submit' value='Save to Schedule'/>
         </form>
     )
 }
